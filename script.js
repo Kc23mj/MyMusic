@@ -11,7 +11,7 @@ function formatTime(seconds) {
 } 
 
 async function getSongs() {
-    let a = await fetch('http://127.0.0.1:3000/SF/musicPlayer/songs/');
+    let a = await fetch('https://github.com/Kc23mj/MyMusic/tree/main/songs');
     let response = await a.text();
     // console.log(response);
     let div = document.createElement("div");
